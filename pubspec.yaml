@@ -1,0 +1,65 @@
+name: game_tcc
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  bonfire: ^2.1.0
+  flame_audio: ^1.0.0
+  flame_splash_screen: ^0.1.0
+  url_launcher: ^6.0.17
+  http: ^0.13.4
+  package_info: ^2.0.2
+  flick_video_player: ^0.3.1
+  path: ^1.8.0
+  syncfusion_flutter_charts: ^19.1.59
+  yahoofin: ^0.0.8
+  cupertino_icons: ^1.0.5
+  flutter_svg: ^1.1.4
+  flip_card: ^0.6.0
+  animate_do: ^2.1.0
+  photo_view: ^0.14.0
+  fluttertoast: ^8.0.9
+  
+
+
+dev_dependencies:
+  test: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/
+    - assets/images/emote/
+    - assets/images/npc/
+    - assets/images/player/
+    - assets/images/itens/
+    - assets/images/tiled/
+    - assets/images/padroes/
+    - assets/audio/
+    - resources/lang/en.json
+    - resources/lang/pt.json
+
+  fonts:
+    - family: Normal
+      fonts:
+        - asset: fonts/font_pixel.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Black.ttf
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
